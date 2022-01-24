@@ -1,0 +1,20 @@
+
+
+
+3. cd.test
+4. code .
+5. index.html
+6. style.css
+7. git status
+8. git init
+9. git add.
+10. git status
+11. git commit -m "First Commit"
+12. git add .
+13. git status
+14. git commit -m "update html"
+15. git add .
+16. git status
+17. git commit -m "update css"
+18. git log
+19. git revert -n head

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiger Woods</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Tiger Woods</h1>
+    <img src="TigerWoods.jpg" alt="Image of Tiger Woods" width="450" height="300">
+    <p>Tiger Woods is the greatest golfer to walk the planet.</p>
+    <h2>The Four Major Championships</h2>
+    <ul>
+        <li>
+            <a href="https://www.masters.com/index.html">The Masters</a>
+        </li>
+        <li>
+            <a href="https://www.usopen.com/">US Open</a>
+        </li>
+        <li>
+            <a href="https://www.theopen.com/">Open Championship</a>
+        </li>
+        <li>
+            <a href="https://www.pgachampionship.com/">PGA Championship</a>
+        </li>
+    </ul>
+    <h2>Tiger's 15 Major Wins</h2>
+    <table class="center">
+        <thead>
+            <tr>
+                <th>Year</th>
+                <th>Major</th>
+                <th>Score</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1997</td>
+                <td>Masters</td>
+                <td>-18</td>
+            </tr>
+            <tr>
+                <td>1999</td>
+                <td>PGA Championship</td>
+                <td>-11</td>
+            </tr>
+            <tr>
+                <td>2000</td>
+                <td>US Open</td>
+                <td>-12</td>
+            </tr>
+            <tr>
+                <td>2000</td>
+                <td>Open Championship</td>
+                <td>-19</td>
+            </tr>
+            <tr>
+                <td>2000</td>
+                <td>PGA Championship</td>
+                <td>-18</td>
+            </tr>
+            <tr>
+                <td>2001</td>
+                <td>Masters</td>
+                <td>-16</td>
+            </tr>
+            <tr>
+                <td>2002</td>
+                <td>Masters</td>
+                <td>-12</td>
+            </tr>
+            <tr>
+                <td>2002</td>
+                <td>US Open</td>
+                <td>-3</td>
+            </tr>
+            <tr>
+                <td>2005</td>
+                <td>Masters</td>
+                <td>-12</td>
+            </tr>
+            <tr>
+                <td>2005</td>
+                <td>Open Championship</td>
+                <td>-14</td>
+            </tr>
+            <tr>
+                <td>2006</td>
+                <td>Open Championship</td>
+                <td>-18</td>
+            </tr>
+            <tr>
+                <td>2006</td>
+                <td>PGA Championship</td>
+                <td>-18</td>
+            </tr>
+            <tr>
+                <td>2007</td>
+                <td>PGA Championship</td>
+                <td>-8</td>
+            </tr>
+            <tr>
+                <td>2008</td>
+                <td>US Open</td>
+                <td>-1</td>
+            </tr>
+            <tr>
+                <td>2019</td>
+                <td>Masters</td>
+                <td>-13</td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="mydiv">
+        <form action="process.php" method="post">
+            <h2>Tell me your favorite Tiger Woods win!</h2>
+            <label for="first_name">First Name:</label>
+            <input type="text" id="first_name" name="first_name"><br>
+            <label for="last_name">Last Name:</label>
+            <input type="text" id="last_name" name="last_name"><br>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email">
+            <p>Select your gender:</p>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="male"><br>
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" value="female"><br>
+            <label for="decline">Prefer not to say</label>
+            <input type="radio" id="decline" name="gender" value="decline"><br>
+            <p>Select your handicap:</p>
+            <select name="name" id="handicap">
+                <option value="0-5">0-5</option>
+                <option value="6-10">6-10</option>
+                <option value="11-20">11-20</option>
+                <option value="21 and above">21 and above</option>
+            </select>
+            <p>What is your favorite major?</p>
+            <input type="checkbox" id="tournament1">
+            <label for="tournament1"> Masters</label><br>
+            <input type="checkbox" id="tournament2">
+            <label for="tournament2"> US Open</label><br>
+            <input type="checkbox" id="tournament3">
+            <label for="tournament3"> Open Championship</label><br>
+            <input type="checkbox" id="tournament4">
+            <label for="tournament4"> PGA Championship</label><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+
+</html>

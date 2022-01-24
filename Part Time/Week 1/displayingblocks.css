@@ -1,0 +1,33 @@
+#wrapper {
+    width: 970px;
+    background-color: wheat;
+    text-align: center;
+    padding: 15px 0px 20px 0px;
+    border-style: solid;
+}
+.header_img {
+    width: 100px;
+    height: 50px;
+    display: inline-block;
+}
+/* .header {
+    display: inline-block;
+} */
+h1 {
+    display: inline-block;
+    margin: 10px 10px;
+}
+.gallery_img1 {
+    background-color: cornflowerblue;
+    width: 130px;
+    height: 130px;
+    border: 3px black solid;
+    padding: 10px 10px 10px 10px;
+}
+.gallery_img2 {
+    background-color: rgb(233, 94, 117);
+    width: 130px;
+    height: 130px;
+    border: 3px black solid;
+    padding: 10px 10px 10px 10px;
+}
