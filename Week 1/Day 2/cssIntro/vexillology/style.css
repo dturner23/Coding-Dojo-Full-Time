@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 10px;
+
+}
+
+.indonesia {
+    height: 200px;
+    width:300px;
+    border: 1px solid gray;
+    margin: 10px;
+}
+
+.red {
+    background-color: red;
+    height: 100px;
+}
+
+.white {
+    background-color: white;
+    height: 100px;
+}
+
+.netherlands {
+    height: 200px;
+    width:300px;
+    border: 1px solid gray;
+    margin: 10px;
+}
+
+.nRed {
+    background-color: red;
+    height: calc(200px / 3);
+}
+
+.nWhite {
+    background-color: white;
+    height: calc(200px / 3);
+}
+
+.nBlue {
+    background-color: blue;
+    height: calc(200px / 3);
+}
+
+.germany {
+    height: 200px;
+    width:300px;
+    border: 1px solid gray;
+    margin: 10px;
+}
+
+.gBlack {
+    background-color: black;
+    height: calc(200px / 3);
+}
+
+.gRed {
+    background-color: red;
+    height: calc(200px / 3);
+}
+
+.gYellow {
+    background-color: yellow;
+    height: calc(200px / 3);
+}
