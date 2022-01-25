@@ -1,0 +1,41 @@
+#searchbtn {
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    width: 150px;
+    border: 2px solid #20c997;
+    border-radius: 25px;
+    color: #20c997;
+    margin-bottom: 20px;
+}
+
+#plusbtn {
+    height: 30px;
+    line-height: 30px;  
+    width: 30px;  
+    font-size: 1.5em;
+    font-weight: bold;
+    border-radius: 50%;
+    background-color: #20c997;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+#create {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: dodgerblue;
+    color: white;
+    border: 3px solid black;
+    height: 30px;
+    width: 200px;
+    box-shadow:  4px 4px black;
+}
