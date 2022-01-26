@@ -50,3 +50,5 @@ for (var i = 0; i < numbers.length; i++) {
     }
     
 console.log("there are " + countPositives + " positive values"); //there are 4 positive values
+
+//.length tells us how many elements are in the array
