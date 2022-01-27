@@ -9,8 +9,6 @@
 
 .container {
     width: 100%;
-    height: 100vh;
-    margin: 0 auto;
 }
 
 /* Content Navbar */
@@ -57,7 +55,7 @@
 /* Main Content */
 
 .content {
-    width: 70%;
+    width: 780px;
     height: 100%;
     display: flex;
     margin-left: 15%;
@@ -66,42 +64,172 @@
 /* Admin Column */
 
 .admin {
-    flex: 1;
+    flex: 2;
 
 }
 
+/* Admin-1 */
+
 .admin-1 {
-    border: 1px solid black;
-    width: 95%;
+    border: 2px solid rgb(184, 180, 180);
+    width: 500px;
     height: 400px;
     margin: 50px 0 0 10px;
 }
 
+.teal {
+    background-color: #17a2b8;
+    height: 80px;
+    width: 496px;
+    position: absolute;
+}
+
+.userImage {
+    width: 100px;
+    border: 4px solid white;
+    outline: 4px solid black;
+    border-radius: 50%;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.teal > h1 {
+    margin: 150px 0 0 30px;
+}
+
+.mapMarker {
+    width: 15px;
+    margin: 10px 10px 0 30px;
+}
+
+p {
+    margin: 10px 0 0 30px;
+}
+.gear {
+    width: 15px;
+    margin: 5px 10px 0 5px;
+}
+
+
+/* Admin-2 */
+
 .admin-2 {
-    border: 1px solid black;
-    width: 95%;
+    border: 2px solid rgb(184, 180, 180);
+    width: 500px;
     height: 200px;
     margin: 30px 0 0 10px;
 }
 
-/* User Card */
+.bar {
+    background-color: #333333;
+    height: 40px;
+    width: 496px;
+    position: absolute;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+h4 {
+    margin-left: 30px;
+}
+
+h2 {
+    margin-left: 30px;
+}
+
+.education {
+    margin-top: 50px;
+}
 
 /* Sidebar Column */
 
 .sidebar {
-    width: 33%;
+    width: 260px;
+    flex: 1;
     background-color: white;
 }
+
+/* Sidebar-1 */
 
 .sidebar-1 {
     height: 200px;
     margin: 50px 0 0 10px;
-    border: 1px solid black;
+    border: 2px solid rgb(184, 180, 180);
 }
+
+.bar-1 {
+    background-color: #333333;
+    height: 50px;
+    width: 246px;
+    position: absolute;
+    color: white;
+    display: flex;
+    align-items: center;;
+}
+
+.bar-1names {
+    margin-top: 65px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.image {
+    width: 40px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.conNames {
+    margin-left: -10px;
+}
+
+.icon {
+    height: 30px;
+    margin-right: 5px;
+}
+
+.bar-1names2 {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Sidebar-2 */
 
 .sidebar-2 {
     height: 350px;
-
     margin: 50px 0 0 10px;
-    border: 1px solid black;
+    border: 2px solid rgb(184, 180, 180);
+}
+
+.bar-2 {
+    background-color: #333333;
+    height: 50px;
+    width: 246px;
+    position: absolute;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.bar-2info {
+    margin-top: 65px;
+    height: 230px;
+}
+
+.bar-2names {
+    margin-top: 10px;
+    display: flex;
+}
+
+.conNames-2 {
+    margin-left: 10px;
+}
+
+.viewMore {
+    border-top: 2px solid rgb(184, 180, 180);
+    display: flex;
+    align-items: center;
 }
