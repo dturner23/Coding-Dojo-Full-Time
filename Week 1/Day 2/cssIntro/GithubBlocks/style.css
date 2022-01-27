@@ -24,26 +24,24 @@ h1 {
     align-items: center;
     background-color: #fafafa;
 }
-.blue {
-    background-color: #68bef8;
+
+.blue, .pink, .white {
     margin: 10px;
     width: 780px;
     display: flex;
+}
+
+.blue {
+    background-color: #68bef8;
     justify-content: space-evenly;
 }
 
 .pink {
     background-color: #f19ace;
-    margin: 10px;
-    width: 780px;
-    display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .white {
     background-color: #fff;
-    margin: 10px;
-    width: 780px;
-    display: flex;
     justify-content: space-evenly;
 }

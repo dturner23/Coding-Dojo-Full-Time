@@ -23,9 +23,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    width: 40%;
     color: white;
-    text-decoration: none;
     list-style-type: none;
 }
 
@@ -38,10 +36,9 @@
     width: 100px;
 }
 
-a{
+a {
     color: white;
     margin:10px;
-    font-family: sans-serif;
     text-decoration: none;
     display: flex;
 }
