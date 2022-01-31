@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 800px;
+    height: 100vh;
+    margin: auto;
+}
+
+.content {
+    width: 800px;
+    height: calc(100vh - 75px);
+    margin-top: 30px;
+}
+
+.likes {
+    width: 100px;
+    height: 30px;
+    background-color: #ffd966;
+    box-shadow: 2px 2px 2px black;
+}
+
