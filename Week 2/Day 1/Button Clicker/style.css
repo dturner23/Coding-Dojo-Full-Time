@@ -50,6 +50,8 @@
     border: 2px solid black;
     padding: 20px;
     margin-bottom: 20px;
+    display: flex;
+    align-items: center;
 }
 
 .likes {
@@ -62,6 +64,8 @@
 .col-1-2 {
     border: 2px solid black;
     padding: 20px;
+    display: flex;
+    align-items: center;
 }
 
 .col-2 {

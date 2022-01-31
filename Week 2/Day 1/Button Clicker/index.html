@@ -12,30 +12,40 @@
         <div class="nav">
             <h1>Dojonary</h1>
             <input class="search" type="text" placeholder="Search">
-            <button onclick="function(login)" class="login">Login</button>
+            <button onclick="changeButton(this)" class="login">Login</button>
         </div>
         <div class="content">
             <div class="col-1">
                 <div class="col-1-1">
-                    <h1>ninja</h1>
-                    <p>noun</p>
-                    <p>Plural: ninjas</p>
-                    <button class="likes">13 likes</button>
-                    <p>A practioner skilled in the <a href="#">Japanese</a>art of <a href="#">ninjutsu</a></p>
+                    <div class="col-left">
+                        <h1>ninja</h1>
+                        <p>noun</p>
+                        <p>Plural: ninjas</p>
+                        <button class="likes" onclick="alertButton(this)">13 likes</button>
+                    </div>
+                    <div class="col-right">
+                        <p>A practioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+                    </div>
                 </div>
                 <div class="col-1-2">
-                    <h1>ninja</h1>
+                    <div class="col-left">
+                        <h1>ninja</h1>
                     <p>noun</p>
                     <p>Plural: ninjas</p>
-                    <button class="likes">37 likes</button>
+                    <button class="likes" onclick="alertButton(this)">37 likes</button>
+                    </div>
+                    <div class="col-right">
+                        <p>A<a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus</p>
+                    </div>
                 </div>
             </div>
             <div class="col-2">
                 <div class="definition">
                     <p>Dojonary is defined by YOU</p>
-                    <button class="addDef">
+                    <button class="addDef" onclick="removeButton(this)">
                         Add Definition
                     </button>
+                    
                 </div>
             </div>
         </div>
