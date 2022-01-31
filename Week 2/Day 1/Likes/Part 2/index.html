@@ -10,45 +10,62 @@
 <body>
     <div class="container">
         <div class="nav">
-            <h1>Dojonary</h1>
-            <input class="search" type="text" placeholder="Search">
-            <button onclick="changeButton(this)" class="login">Login</button>
+            <h1>Network</h1>
         </div>
+        <h1 class="main">Your Feed</h1>
         <div class="content">
             <div class="col-1">
-                <div class="col-1-1">
-                    <div class="col-left">
-                        <h1>ninja</h1>
-                        <p>noun</p>
-                        <p>Plural: ninjas</p>
-                        <button class="likes" onclick="alertButton(this)">13 likes</button>
-                    </div>
-                    <div class="col-right">
-                        <p>A practioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
-                    </div>
-                </div>
-                <div class="col-1-2">
-                    <div class="col-left">
-                        <h1>ninja</h1>
-                        <p>noun</p>
-                        <p>Plural: ninjas</p>
-                        <button class="likes" onclick="alertButton(this)">37 likes</button>
-                    </div>
-                    <div class="col-right">
-                        <p>A<a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus</p>
-                    </div>
-                </div>
+                <div class="image"><img src="./assets/images/jane-m.jpg" alt="jane"></div>
+                <div class="avatar"><a href="#">Add an avatar</a></div>
+                <h1>James Doe</h1>    
             </div>
-            <div class="col-2">
-                <div class="definition">
-                    <p>Dojonary is defined by YOU</p>
-                    <button class="addDef" onclick="removeButton(this)">
-                        Add Definition
-                    </button>
+            <div class="updates">
+                <div class="col-2">
+                    <div class="col-2-1">
+                        <div class="top">
+                            <h1>Neil M</h1>
+                            <div class="counter" id="like_num1">9</div>
+                            <p>like(s)</p>
+                            <button class="like" onclick="update_likes('#like_num1')">Like</button>
+                        </div>
+                        <div class="bottom">
+                            <p>I just set up this new discord bot, let me know what you all think. <a href="#">link</a></p>
+                        </div>
+                    </div>
                 </div>
-            </div>
+                <div class="col-3">
+                    <div class="col-2-1">
+                        <div class="top">
+                            <h1>Nichole K</h1>
+                            <div class="counter" id="like_num2">12</div>
+                            <p>like(s)</p>
+                            <button class="like" onclick="update_likes('#like_num2')">Like</button>
+                        </div>
+                        <div class="bottom">
+                            <p>Just finished my <a href="#">next comic</a>, check it out.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="col-2-1">
+                        <div class="top">
+                            <h1>Jim R</h1>
+                            <div class="counter" id="like_num3">9</div>
+                            <p>like(s)</p>
+                            <button class="like" onclick="update_likes('#like_num3')">Like</button>
+                        </div>
+                        <div class="bottom">
+                            <p>I can't stop listening to the <a href="#">new album</a>.</p>
+                            <p> Who else is liking it?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>    
         </div>
     </div>
+
+
+
 
     <script src="main.js"></script>
 </body>
