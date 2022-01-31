@@ -41,6 +41,7 @@
     margin-top: 30px;
 }
 
+
 .col-1 {
     flex: 2;
     margin-right: 10px;
@@ -52,6 +53,24 @@
     margin-bottom: 20px;
     display: flex;
     align-items: center;
+}
+
+.col-left {
+    flex: 1;
+    margin: 10px;
+}
+
+.col-left > h1, p {
+    margin-top: 5px;
+}
+
+.likes {
+    margin-top: 10px;
+}
+
+.col-right {
+    flex: 2;
+    margin: 10px;
 }
 
 .likes {
@@ -77,10 +96,12 @@
 }
 
 
+
 .addDef {
     height: 25px;
     width: 200px;
     background-color: #93c47d;
     box-shadow: 2px 2px 2px black;
+    margin-top: 10px;
 }
 
