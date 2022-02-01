@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #000;
+    color: #fff;
+    min-height: 80px;
+    text-align: center;
+}
+
+.container {
+    max-width: 70%;
+    min-height: 80px;
+    background-color: aquamarine;
+    margin: 0 auto;
+}
+
+.menu {
+    background-color: blanchedalmond;
+    min-height: 80px;
+}
+
+.flexed {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.carousel {
+    background-color: #000;
+    min-height: 300px;
+}
+
+.feature {
+    background-color: gray;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.product {
+    flex: 1;
+    background-color: yellow;
+    min-height: 200px;
+    margin: 10px;
+}
