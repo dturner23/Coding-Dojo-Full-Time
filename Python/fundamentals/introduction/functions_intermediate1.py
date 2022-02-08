@@ -11,6 +11,9 @@ sports_directory = {
 }
 z = [ {'x': 10, 'y': 20} ]
 
+
+
+
 # 2 Iterate through a list of dictionaries
 
 students = [
@@ -28,7 +31,13 @@ first_name - Mark, last_name - Guillen
 first_name - KB, last_name - Tonel
 
 
+
+
+
 # 3 Get values from a list of dictionaries
+
+
+
 
 
 
